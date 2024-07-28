@@ -1,0 +1,2 @@
+- XCode 15
+- TranHungIT2003.iOS-Assignment1-s3928533-KFCRestaurant
