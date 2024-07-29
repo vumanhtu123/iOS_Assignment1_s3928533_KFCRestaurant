@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct iOS_Assignment1_s3928533_KFCRestaurantApp: App {
+    
+    @AppStorage("isDarkMode") private var isDarkMode: Bool = false
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Splash().preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
 }

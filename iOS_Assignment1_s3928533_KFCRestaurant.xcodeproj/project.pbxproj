@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB94B45B2C562E2900A957FA /* ListKFC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B45A2C562E2900A957FA /* ListKFC.swift */; };
+		EB94B45E2C5639A900A957FA /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B45D2C5639A900A957FA /* SearchBar.swift */; };
 		EBB061692C553473008D367A /* iOS_Assignment1_s3928533_KFCRestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB061682C553473008D367A /* iOS_Assignment1_s3928533_KFCRestaurantApp.swift */; };
-		EBB0616B2C553473008D367A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB0616A2C553473008D367A /* ContentView.swift */; };
+		EBB0616B2C553473008D367A /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB0616A2C553473008D367A /* Splash.swift */; };
 		EBB0616D2C553475008D367A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB0616C2C553475008D367A /* Assets.xcassets */; };
 		EBB061702C553475008D367A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB0616F2C553475008D367A /* Preview Assets.xcassets */; };
 		EBB0617A2C553476008D367A /* iOS_Assignment1_s3928533_KFCRestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB061792C553476008D367A /* iOS_Assignment1_s3928533_KFCRestaurantTests.swift */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB94B45A2C562E2900A957FA /* ListKFC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListKFC.swift; sourceTree = "<group>"; };
+		EB94B45D2C5639A900A957FA /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		EBB061652C553473008D367A /* iOS_Assignment1_s3928533_KFCRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Assignment1_s3928533_KFCRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB061682C553473008D367A /* iOS_Assignment1_s3928533_KFCRestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Assignment1_s3928533_KFCRestaurantApp.swift; sourceTree = "<group>"; };
-		EBB0616A2C553473008D367A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBB0616A2C553473008D367A /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 		EBB0616C2C553475008D367A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBB0616F2C553475008D367A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBB061752C553476008D367A /* iOS_Assignment1_s3928533_KFCRestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Assignment1_s3928533_KFCRestaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB94B45C2C562E3C00A957FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0616A2C553473008D367A /* Splash.swift */,
+				EB94B45A2C562E2900A957FA /* ListKFC.swift */,
+				EB94B45D2C5639A900A957FA /* SearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EBB0615C2C553473008D367A = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +108,8 @@
 		EBB061672C553473008D367A /* iOS_Assignment1_s3928533_KFCRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				EB94B45C2C562E3C00A957FA /* View */,
 				EBB061682C553473008D367A /* iOS_Assignment1_s3928533_KFCRestaurantApp.swift */,
-				EBB0616A2C553473008D367A /* ContentView.swift */,
 				EBB0616C2C553475008D367A /* Assets.xcassets */,
 				EBB0616E2C553475008D367A /* Preview Content */,
 			);
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBB0616B2C553473008D367A /* ContentView.swift in Sources */,
+				EB94B45B2C562E2900A957FA /* ListKFC.swift in Sources */,
+				EB94B45E2C5639A900A957FA /* SearchBar.swift in Sources */,
+				EBB0616B2C553473008D367A /* Splash.swift in Sources */,
 				EBB061692C553473008D367A /* iOS_Assignment1_s3928533_KFCRestaurantApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
